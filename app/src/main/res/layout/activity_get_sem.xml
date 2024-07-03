@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Teacher.GetSemActivity">
+
+    <LinearLayout
+        android:id="@+id/llSem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/lback"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvParent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Sem Student Details"
+            android:textSize="24sp"
+            android:textAllCaps="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="35dp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"/>
+        <EditText
+            android:id="@+id/etTsem"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_white"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:hint="Enter Semester"
+            android:textColorHint="#BDBDBD"
+            android:layout_gravity="center"
+            android:inputType="number"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/etTcls"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_white"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:hint="Enter Class"
+            android:textColorHint="#BDBDBD"
+            android:layout_gravity="center"
+            android:enabled="false"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/etTreg"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_white"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:hint="Enter Reg No"
+            android:textColorHint="#BDBDBD"
+            android:layout_gravity="center"
+            android:enabled="false"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/btnMNext"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_btn"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:text="Enter"
+            android:textColor="@color/white"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llSem2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/lback"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Subject"
+            android:textSize="24sp"
+            android:textAllCaps="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="35dp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <ListView
+                android:id="@+id/lvSubject"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llSem3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/lback"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Student Mark"
+            android:textSize="24sp"
+            android:textAllCaps="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="35dp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"/>
+        <EditText
+            android:id="@+id/etSubMark"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_white"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:hint="Enter Mark"
+            android:textColorHint="#BDBDBD"
+            android:layout_gravity="center"
+            android:inputType="number"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btnEMark"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_btn"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:text="Enter"
+            android:textColor="@color/white"/>
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

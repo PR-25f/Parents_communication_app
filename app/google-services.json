@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "352488904810",
+    "project_id": "knowme-173f9",
+    "storage_bucket": "knowme-173f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352488904810:android:a134a443f4491022c25213",
+        "android_client_info": {
+          "package_name": "com.example.knowme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXM85O-ovq6_csr2kwbkIqVIj6CsxDGUc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

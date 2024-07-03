@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeacherDashboardActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/lback"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvAddAnnouncements"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Announcements"
+            android:textSize="24sp"
+            android:textAllCaps="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="35dp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"/>
+
+        <TextView
+            android:id="@+id/tvAddAttendance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Attendance"
+            android:textSize="24sp"
+            android:textAllCaps="true"
+            android:layout_gravity="center"
+            android:layout_margin="35dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#1976D2"/>
+
+        <TextView
+            android:id="@+id/tvAddFee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Fee Details"
+            android:textSize="24sp"
+            android:textAllCaps="true"
+            android:layout_gravity="center"
+            android:layout_margin="35dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#1976D2"/>
+
+        <TextView
+            android:id="@+id/tvAddsem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Semester Subjects"
+            android:textSize="24sp"
+            android:textAllCaps="true"
+            android:layout_gravity="center"
+            android:layout_margin="35dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#1976D2"/>
+
+        <TextView
+            android:id="@+id/tvAddIAMarks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add IA Marks"
+            android:textSize="24sp"
+            android:textAllCaps="true"
+            android:layout_gravity="center"
+            android:layout_margin="35dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#1976D2"/>
+
+        <TextView
+            android:id="@+id/tvTlogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textSize="24sp"
+            android:textAllCaps="true"
+            android:layout_gravity="center"
+            android:layout_margin="35dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#1976D2"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
